@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Doações | Faça a Diferença</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <div class="logo">DoarMais+</div>
+            <ul>
+                <li><a href="#" class="nav-item" id="sobre">Sobre</a></li>
+                <li><a href="#" class="nav-item" id="como-funciona">Como Funciona</a></li>
+                <li><a href="#" class="nav-item" id="contato">Contato</a></li>
+            </ul>
+        </nav>
+
+        <div class="tooltip" id="sobre-tooltip">
+            Somos uma instituição comprometida em fazer a diferença. Há mais de 5 anos, 
+            trabalhamos incansavelmente para levar alimentos e esperança a pessoas em 
+            situação de vulnerabilidade social. Nossa missão é transformar vidas através 
+            da solidariedade.
+        </div>
+
+        <div class="tooltip" id="como-funciona-tooltip">
+            É simples! Clique em "Fazer Doação", preencha o formulário com os itens que 
+            deseja doar. Nossa equipe fará a coleta e distribuição aos mais necessitados. 
+            Você também pode acompanhar o status da sua doação através do nosso sistema.
+        </div>
+
+        <div class="tooltip" id="contato-tooltip">
+            📞 (11) 99999-9999
+            📧 contato@doarmais.org
+            📍 Av. da Solidariedade, 123
+        </div>
+
+        <div class="container">
+            <div class="hero-content">
+                <h1>Transforme Vidas<br>Com Suas Doações</h1>
+                <p>Sua generosidade pode fazer a diferença na vida de alguém hoje!</p>
+                <button id="btnDoar" class="btn-doar">FAZER DOAÇÃO</button>
+            </div>
+        </div>
+    </div>
+      <div id="formModal" class="form-modal">
+          <h2>Nova Doação</h2>
+          <form id="formDoacao">
+              <div class="form-group">
+                  <input type="text" placeholder="O que você quer doar?" required>
+              </div>
+              <div class="form-group">
+                  <input type="number" placeholder="Quantidade" required>
+              </div>
+              <div class="form-group">
+                  <input type="text" placeholder="Seu nome" required>
+              </div>
+              <button type="submit" class="submit-btn">Confirmar Doação</button>
+          </form>
+      </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
