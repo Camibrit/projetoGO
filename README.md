@@ -20,4 +20,4 @@ O **DoarMais+** é um sistema web desenvolvido para facilitar doações, conecta
 - Sistema de tooltips informativos para auxiliar o usuário durante a navegação.
 - Feedback instantâneo após a realização de uma doação.
 
-
+![Captura de tela 2025-01-08 113216](https://github.com/user-attachments/assets/78b153c4-fd53-4cc0-881c-9fb482d3809f)
